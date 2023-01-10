@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".Activity3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#C4B1B1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="4dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/img1"
+                    android:tag="https://www.investmentnews.com/expect-giant-branch-offices-at-ibds-to-flex-independent-broker-dealers-232407"
+                    android:onClick="openBrowser"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expect giant branch offices at IBDs to flex their muscle"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="There are plenty of private equity managers left who could still invest in large branch offices of independent broker-dealers."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#C4B1B1"
+            android:layout_below="@+id/first">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="4dp">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/img2"
+                    android:tag="https://www.investmentnews.com/vanguards-efforts-to-navigate-politics-of-esg-could-be-blueprint-for-others-232480"
+                    android:onClick="openBrowser"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vanguard’s efforts to navigate politics of ESG could be blueprint for others"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last month's decision to exit the Net Zero Asset Managers Initiative puts Vanguard in a spotlight it was likely trying to avoid."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#C4B1B1"
+            android:layout_below="@+id/second">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="4dp">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/img3"
+                    android:tag="https://www.investmentnews.com/after-rough-ride-in-22-60-40-portfolio-looks-poised-for-solid-23-232371"
+                    android:onClick="openBrowser"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After rough ride in ’22, 60/40 portfolio looks poised for solid ’23"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The same Fed policy that hurt fixed income last year is likely to make it the ballast for portfolios for the year ahead."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
